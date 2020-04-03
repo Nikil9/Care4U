@@ -1,6 +1,5 @@
 Available Scripts
-In the project directory, you can run: AIzaSyBmHWg8ROQ-yAjJ8zcK9ie8qzjgsBb41h8
-
+In the project directory, you can run:
 # yarn start
 ```
 Runs the app in the development mode.
