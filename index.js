@@ -15,10 +15,13 @@ class App extends Component {
     return (
       
         <div class="topnav">
+        <a href="#news">care 4 u</a>
+        <div class="topnav-right">
   <a class="active" href="#home">Home</a>
   <a href="#news">News</a>
   <a href="#contact">Contact</a>
   <a href="#about">About</a>
+  </div>
 </div>
       
     );
