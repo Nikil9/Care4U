@@ -7,9 +7,6 @@ import SimpleMap from './SimpleMap'
 
 class App extends Component {
   render() {
-    function map(){
-      <SimpleMap/>
-    }
     return (
     <div>
       <div class="topnav">
@@ -22,13 +19,12 @@ class App extends Component {
         </div>
       </div>
       <div>
-           
+         <SimpleMap/> 
       </div>
     </div>
     );
   }
 }
-
 render(<App />, document.getElementById('root'));
 
 
