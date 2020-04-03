@@ -14,6 +14,13 @@ class App extends Component {
     <a href="#contact">Contact</a>
     <a href="#about">About</a>
     </div>
+
+    <frameset rows = "10%,80%,10%">
+      <frame name = "top" src = "test.html" />
+      <frame name = "main" src = "" />
+      <frame name = "bottom" src = "" />    
+   </frameset>
+
   </div>  
     );
   }
