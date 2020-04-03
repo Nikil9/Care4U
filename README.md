@@ -1,5 +1,5 @@
 Available Scripts
-In the project directory, you can run:
+In the project directory, you can run: AIzaSyBmHWg8ROQ-yAjJ8zcK9ie8qzjgsBb41h8
 
 # yarn start
 ```
