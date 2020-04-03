@@ -13,12 +13,14 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        <Hello name={this.state.name} />
-        <p>
-          Welcome :)
-        </p>
-      </div>
+      
+        <div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
+      
     );
   }
 }
