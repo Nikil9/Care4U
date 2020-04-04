@@ -53,4 +53,4 @@ var Back = React.createClass({
    
   }
 }
-export default Testkks;
+export default App;
