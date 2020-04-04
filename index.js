@@ -11,23 +11,26 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
+      home: true,
       news: false,
       resources: false,
-      simpleMap: true,
+      simpleMap: false,
     }
     //this.handle = this.handle.bind(this);
   }
   render() {
     function handleHome() {
       this.setState({
+        home:true,
         news:false,
-        simpleMap:true,
+        simpleMap:false,
         resources:false
       })
     }
 
     function handleNews() {
       this.setState({
+        home:false,
         news:true,
         simpleMap:false,
         resources:false
@@ -36,21 +39,35 @@ class App extends Component {
 
     function handleResources() {
       this.setState({
+        home:false,
         news:false,
         simpleMap:false,
         resources:true
       })
+      
+    }
+
+    function handleMap() {
+      this.setState({
+        home:false,
+        news:false,
+        simpleMap:true,
+        resources:false
+      })
+      
     }
     return (
-    <div>
+    <div class="home">
       <div class="topnav">
         <a href="#news">Care4U</a>
         <div class="topnav-right">
         <input type="submit" value="Home" onClick={handleHome.bind(this)}/>
+        <input type="submit" value="Covid Zone" onClick={handleMap.bind(this)}/>
         <input type="submit" value="News" onClick={handleNews.bind(this)}/>
         <input type="submit" value="Resources" onClick={handleResources.bind(this)}/>
         </div>
       </div>
+         
       <div>
         {this.state.simpleMap?<SimpleMap/>:''}
       </div>
@@ -59,6 +76,9 @@ class App extends Component {
       </div>
       <div>
          {this.state.resources?<Resources/>:''}
+      </div>
+      <div>
+         {this.state.home?<Test/>:''}
       </div>
     </div>
     );
