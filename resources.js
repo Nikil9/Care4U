@@ -12,36 +12,36 @@ class Resources extends Component {
       <div class="columns">
         <ul class="price">
         <li class="header">Pro</li>
-        <li><input type="text" place holder="test"/></li>
-        <li><input type="text" place holder="test"/></li>
-        <li><input type="text" place holder="test"/></li>
-        <li><input type="text" place holder="test"/></li>
-        <li><input type="text" place holder="test"/></li>
-        <li class="grey">Sign Up</li>
+        <li><input type="text" placeholder="test"/></li>
+        <li><input type="text" placeholder="test"/></li>
+        <li><input type="text" placeholder="test"/></li>
+        <li><input type="text" placeholder="test"/></li>
+        <li><input type="text" placeholder="test"/></li>
+        <li class="grey"><a href="#" class="button">Sign Up</a></li>
         </ul>
       </div>
 
       <div class="columns">
         <ul class="price">
         <li class="header">Pro</li>
-        <li><input type="text" place holder="test"/></li>
-        <li><input type="text" place holder="test"/></li>
-        <li><input type="text" place holder="test"/></li>
-        <li><input type="text" place holder="test"/></li>
-        <li><input type="text" place holder="test"/></li>
-        <li class="grey">Sign Up</li>
+        <li><input type="text" placeholder="test"/></li>
+        <li><input type="text" placeholder="test"/></li>
+        <li><input type="text" placeholder="test"/></li>
+        <li><input type="text" placeholder="test"/></li>
+        <li><input type="text" placeholder="test"/></li>
+        <li class="grey"><a href="#" class="button">Sign Up</a></li>
         </ul>
       </div>
 
       <div class="columns">
         <ul class="price">
         <li class="header">Pro</li>
-        <li><input type="text" place holder="test"/></li>
-        <li><input type="text" place holder="test"/></li>
-        <li><input type="text" place holder="test"/></li>
-        <li><input type="text" place holder="test"/></li>
-        <li><input type="text" place holder="test"/></li>
-        <li class="grey">Sign Up</li>
+        <li><input type="text" placeholder="test"/></li>
+        <li><input type="text" placeholder="test"/></li>
+        <li><input type="text" placeholder="test"/></li>
+        <li><input type="text" placeholder="test"/></li>
+        <li><input type="text" placeholder="test"/></li>
+        <li class="grey"><a href="#" class="button">Sign Up</a></li>
         </ul>
       </div>
 
