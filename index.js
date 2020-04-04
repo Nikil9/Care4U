@@ -5,7 +5,7 @@ import './style.css';
 import Test from './Test';
 import Test1 from './Testkks';
 import SimpleMap from './SimpleMap';
-
+import News from './news';
 class App extends Component {
   render() {
     return (
@@ -20,7 +20,7 @@ class App extends Component {
         </div>
       </div>
       <div>
-         <Test1/> 
+         <News/> 
       </div>
     </div>
     );
