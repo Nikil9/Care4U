@@ -9,6 +9,7 @@ class Test1 extends Component {
    <div class="main-agileits  w3-container w3-BLUE w3-xxlarge"> 
           <h1> Join us</h1>
       </div>
+      <p class="alignleft">	
 <div class="main-agileits"> 
 	<h2 class="sub-head"><font color="grey" size="6">Basic Information</font></h2>
        
@@ -23,7 +24,7 @@ class Test1 extends Component {
 		</div>
 			<div class="sub-main">	
 		<p class="alignleft">		
-		<input  placeholder="Mail" name="name" class="mail" type="text" required=""/><br/><br/>
+		<input  placeholder="Mail" name="name" class="mail" type="text" required=""/>
 				<input  placeholder="you are living in" name="address" class="address" type="text" required=""/></p>
 				
                                        
@@ -69,6 +70,7 @@ class Test1 extends Component {
 		  
 	
 		<div class="clear"></div>
+    </p>
     </div>
 
     )
