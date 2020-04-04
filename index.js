@@ -6,6 +6,7 @@ import Test from './Test';
 import Test1 from './Testkks';
 import SimpleMap from './SimpleMap';
 import News from './news';
+import resources from './resources';
 class App extends Component {
   render() {
     return (

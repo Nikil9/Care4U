@@ -22,7 +22,7 @@ class Test1 extends Component {
 			<input placeholder="mobile_no" name="mobile_no" class="number" type="text"  required=""/></p>
 		</div>
 			<div class="sub-main">	
-		<p class="alignright">		
+		<p class="alignleft">		
 		<input  placeholder="Mail" name="name" class="mail" type="text" required=""/><br/><br/>
 				<input  placeholder="you are living in" name="address" class="address" type="text" required=""/></p>
 				
@@ -43,7 +43,7 @@ class Test1 extends Component {
 		 	</div>
        <div class="sub-main">
 				
-		<p class="alignright">		
+		<p class="alignleft">		
 		<input  placeholder="Department" name="name" class="mail" type="text" required=""/>
 				<input  placeholder="Duration" name="address" class="address" type="text" required=""/></p>
                                        
