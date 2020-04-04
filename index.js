@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Hello from './Hello';
 import './style.css';
-import Test from './Test'
-import SimpleMap from './SimpleMap'
+import Test from './Test';
+import Testkks from './App';
+import SimpleMap from './SimpleMap';
 
 class App extends Component {
   render() {
@@ -19,7 +20,7 @@ class App extends Component {
         </div>
       </div>
       <div>
-         <SimpleMap/> 
+         <App/> 
       </div>
     </div>
     );
