@@ -3,12 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "google-map-react": "^1.1.7",
-    "prop-types": "15.7.2",
+    "google-map-react": "1.1.7",
+    "prop-types": ">=15",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-google-charts": "3.0.15",
+    "react-google-charts": "^3.0.15",
     "react-redux": "7.2.0",
+    "react-router-dom": "5.1.2",
     "redux": "4.0.5",
     "typescript": "3.8.3"
   },
