@@ -48,12 +48,8 @@ class Resources extends Component {
         </ul>
       </div>
 
-      
-
       </div>
     )
   }
 }
 export default Resources;
-
-
