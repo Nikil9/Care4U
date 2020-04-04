@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
+import Join from './Join';
 import   './resources.css';
 
 class Resources extends Component {
   render() {
     return (
     <div>
-    <center>
+      <center>
       <div class="main-agileits"> 
-	<h2 class="sub-head"><font color="grey" size="6">Need Help<br/>
-   </font></h2>
+	    <h2 class="sub-head"><font color="grey" size="6">Need Help<br/>
+      </font></h2>
       </div>
       </center>
       <div class="columns">
@@ -47,10 +48,6 @@ class Resources extends Component {
         <li class="grey"><a href="#" class="button">Proceed for Test</a></li>
         </ul>
       </div>
-
-
-      <input type="submit" value="Covid Zone" onClick={handleMap.bind(this)}/>
-        
       </div>
     )
   }

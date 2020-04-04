@@ -7,6 +7,8 @@ import Test1 from './Testkks';
 import SimpleMap from './SimpleMap';
 import News from './news';
 import Resources from './resources';
+import Join from './Join';
+
 class App extends Component {
   constructor() {
     super();
@@ -15,6 +17,7 @@ class App extends Component {
       news: false,
       resources: false,
       simpleMap: false,
+      join: false,
     }
     //this.handle = this.handle.bind(this);
   }
@@ -24,7 +27,8 @@ class App extends Component {
         home:true,
         news:false,
         simpleMap:false,
-        resources:false
+        resources:false,
+        join: false,
       })
     }
 
@@ -33,7 +37,8 @@ class App extends Component {
         home:false,
         news:true,
         simpleMap:false,
-        resources:false
+        resources:false,
+        join: false,
       })
     }
 
@@ -42,7 +47,8 @@ class App extends Component {
         home:false,
         news:false,
         simpleMap:false,
-        resources:true
+        resources:true,
+        join: false,
       })
       
     }
@@ -52,10 +58,23 @@ class App extends Component {
         home:false,
         news:false,
         simpleMap:true,
-        resources:false
+        resources:false,
+         join: false,
       })
       
     }
+
+    function handleJoin() {
+      this.setState({
+        home:false,
+        news:false,
+        simpleMap:false,
+        resources:false,
+        join: true,
+      })
+      
+    }
+
     return (
     <div class="home">
       <div class="topnav">
@@ -65,6 +84,7 @@ class App extends Component {
         <input type="submit" value="Covid Zone" onClick={handleMap.bind(this)}/>
         <input type="submit" value="News" onClick={handleNews.bind(this)}/>
         <input type="submit" value="Resources" onClick={handleResources.bind(this)}/>
+        <input type="submit" value="Join us" onClick={handleJoin.bind(this)}/>
         </div>
       </div>
          
@@ -79,6 +99,9 @@ class App extends Component {
       </div>
       <div>
          {this.state.home?<Test/>:''}
+      </div>
+       <div>
+         {this.state.join?<Join/>:''}
       </div>
     </div>
     );

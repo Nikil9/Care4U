@@ -18,4 +18,4 @@ class Join extends Component {
     );
   }
 }
-export default join;
+export default Join;
