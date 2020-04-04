@@ -19,6 +19,10 @@ class App extends Component {
         <a href="#about">About</a>
         </div>
       </div>
+      
+      <div>
+         <SimpleMap/> 
+      </div>
       <div>
          <Test1/> 
       </div>
