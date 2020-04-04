@@ -25,8 +25,8 @@ function gridView() {
     return (
      <div>
       <Chart
-        width={'500px'}
-        height={'300px'}
+        width={'750px'}
+        height={'350px'}
         chartType="BubbleChart"
         loader={<div>Loading Chart</div>}
         data={[
@@ -58,26 +58,28 @@ function gridView() {
 
 <div class="row">
   <div class="column1" >
-    <h2>Column 1</h2>
-    <p>Some text.</p>
+    <h2>Incident Noticed</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </div>
+
   <div class="column2" >
-    <h2>Column 2</h2>
-    <p>Some text..</p>
+    <h2>High Alert</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </div>
 </div>
 
 <div class="row">
   <div class="column3" >
-    <h2>Column 3</h2>
-    <p>Some text..</p>
+    <h2>Covid-19</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    
   </div>
   <div class="column4" >
-    <h2>Column 4</h2>
-    <p>Some text..</p>
+    <h2>Ask for help</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </div>
-</div>
-      </div>
+  </div>
+  </div>
     )
   }
 }
