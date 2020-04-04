@@ -1,12 +1,8 @@
-* {
-  box-sizing: border-box;
-}
 
 .columns {
   float: left;
   width: 33.3%;
   padding: 8px;
-  display: block;
 }
 
 .price {
@@ -47,10 +43,4 @@
   text-align: center;
   text-decoration: none;
   font-size: 18px;
-}
-
-@media only screen and (max-width: 600px) {
-  .columns {
-    width: 100%;
-  }
 }

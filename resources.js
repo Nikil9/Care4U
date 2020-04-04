@@ -1,46 +1,53 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import  resources from './resources.css';
+import   './resources.css';
 
 class Resources extends Component {
   render() {
     return (
-      <div>
+    <div>
       <h2>Responsive Pricing Tables</h2>
       <p>Resize the browser window to see the effect.</p>
-      <div class="res">
-      
-        <div class="columns">
-        <label>Basic</label>
-        <input type="text"/>
-        <input type="text"/>
-        <input type="text"/>
-        <input type="text"/>
-        <input type="text"/>
-        <input type="text"/>
-        </div>
 
-        <div>
-        <label>Advanced</label>
-        <input type="text"/>
-        <input type="text"/>
-        <input type="text"/>
-        <input type="text"/>
-        <input type="text"/>
-        <input type="text"/>
-        </div>
-
-        <div>
-        <label>Self covid Test</label>
-        <input type="text"/>
-        <input type="text"/>
-        <input type="text"/>
-        <input type="text"/>
-        <input type="text"/>
-        <input type="text"/>
-        </div>
+      <div class="columns">
+        <ul class="price">
+        <li class="header">Pro</li>
+        <li><input type="text" place holder="test"/></li>
+        <li><input type="text" place holder="test"/></li>
+        <li><input type="text" place holder="test"/></li>
+        <li><input type="text" place holder="test"/></li>
+        <li><input type="text" place holder="test"/></li>
+        <li class="grey">Sign Up</li>
+        </ul>
       </div>
-  </div>
+
+      <div class="columns">
+        <ul class="price">
+        <li class="header">Pro</li>
+        <li><input type="text" place holder="test"/></li>
+        <li><input type="text" place holder="test"/></li>
+        <li><input type="text" place holder="test"/></li>
+        <li><input type="text" place holder="test"/></li>
+        <li><input type="text" place holder="test"/></li>
+        <li class="grey">Sign Up</li>
+        </ul>
+      </div>
+
+      <div class="columns">
+        <ul class="price">
+        <li class="header">Pro</li>
+        <li><input type="text" place holder="test"/></li>
+        <li><input type="text" place holder="test"/></li>
+        <li><input type="text" place holder="test"/></li>
+        <li><input type="text" place holder="test"/></li>
+        <li><input type="text" place holder="test"/></li>
+        <li class="grey">Sign Up</li>
+        </ul>
+      </div>
+
+      
+
+      </div>
     )
   }
 }
