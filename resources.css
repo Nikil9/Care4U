@@ -24,14 +24,14 @@
 }
 
 .price .header {
-  background-color:#36454F;
+  background-color:grey;
   color: white;
   font-size: 25px;
 }
 
 .price li {
   border-bottom: 1px solid #eee;
-  background-color:#696969;
+  
   padding: 20px;
   text-align: center;
 }
@@ -42,7 +42,7 @@
 }
 
 .button {
-  background-color:#36454F;
+  background-color:grey;
   border: none;
   color: white;
   padding: 10px 25px;
