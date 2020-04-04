@@ -29,6 +29,6 @@ tr:nth-child(even) {background-color: #f2f2f2}
 }
 #txtbox {
     font-size: 18pt;
-    height: 100px;
-    width : 1000px;
+    height: 20px;
+    width : 150px;
 }
