@@ -8,7 +8,7 @@ class Resources extends Component {
     <div>
     <center>
       <div class="main-agileits"> 
-	<h2 class="sub-head"><font color="blue" size="6">Please fill details for your Needs<br/>
+	<h2 class="sub-head"><font color="grey" size="6">Need Help<br/>
    </font></h2>
       </div>
       </center>
