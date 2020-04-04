@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import  resources from './resources.css';
 
-class resources extends Component {
+class Resources extends Component {
   render() {
     return (
       <div>
-      <h2 style="text-align:center">Responsive Pricing Tables</h2>
-<p style="text-align:center">Resize the browser window to see the effect.</p>
+      <h2>Responsive Pricing Tables</h2>
+<p>Resize the browser window to see the effect.</p>
 
 <div class="columns">
   <ul class="price">
@@ -23,7 +23,7 @@ class resources extends Component {
 
 <div class="columns">
   <ul class="price">
-    <li class="header" style="background-color:#4CAF50">Pro</li>
+    <li class="header">Pro</li>
     <li class="grey">$ 24.99 / year</li>
     <li>25GB Storage</li>
     <li>25 Emails</li>
@@ -48,6 +48,6 @@ class resources extends Component {
     )
   }
 }
-export default resources;
+export default Resources;
 
 
