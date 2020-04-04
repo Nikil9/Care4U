@@ -16,8 +16,7 @@ class App extends Component {
         <div class="topnav-right">
         <a class="active" href="#home">Home</a>
         <a href="test.html">News</a>
-        <a href="#contact">Food Resources</a>
-        <a href="#about">Other Resources</a>
+        <a href="#contact"> Resources</a>
         </div>
       </div>
       
