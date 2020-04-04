@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import Hello from './Hello';
 import './style.css';
 import Test from './Test';
-import Testkks from './App';
+import Testkks from './Test1';
 import SimpleMap from './SimpleMap';
 
 class App extends Component {
@@ -20,7 +20,7 @@ class App extends Component {
         </div>
       </div>
       <div>
-         <App/> 
+         <Test1/> 
       </div>
     </div>
     );

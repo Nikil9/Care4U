@@ -1,56 +1,84 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import './Flipper.css';
+import './Aboutus.css';
 
-class App extends Component {
+class Test1 extends Component {
   render() {
     return (
-    var App = React.createClass({
-  getInitialState: function() {
-    return {
-      flipped: false
-    };
-  },
-
-  flip: function() {
-    this.setState({ flipped: !this.state.flipped });
-  },
-
-  render: function() {
-    return <div>
-      <Flipper flipped={this.state.flipped} orientation="horizontal" />
-      <Flipper flipped={this.state.flipped} orientation="vertical" />
-            
-      <div className="button-container">
-        <button onClick={this.flip}>Flip!</button>
+   <div class="main-agileits  w3-container w3-BLUE w3-xxlarge"> 
+          <h1> Tell us about yourself</h1>
       </div>
-    </div>;
-  }
-});
-var Flipper = React.createClass({
-  render: function() {
-    return <div className={"flipper-container " + this.props.orientation}>
-      <div className={"flipper" + (this.props.flipped ? " flipped" : "")}>
-        <Front>the front!</Front>
-        <Back>the back!</Back>
-      </div>
-    </div>;
-  }
-});
-var Front = React.createClass({
-  render: function() {
-    return <div className="front tile">{this.props.children}</div>;
-  }
-});
-      
-var Back = React.createClass({
-  render: function() {
-    return <div className="back tile">{this.props.children}</div>;
-  }
-});
+<div class="main-agileits "> 
+	<h2 class="sub-head"><font color="grey" size="6">Basic Information</font></h2>
+       
+		<div class="sub-main">	
+               <center>    
 
+			<form name="ChangePasswordForm" method="post" action="reg1.jsp" OnSubmit="return fncSubmit();">
+			<p class="alignleft">	
+			<input placeholder="Name" name="name" class="name" type="text" required=""/>
+					<br><br>
+			<input placeholder="mobile_no" name="mobile_no" class="number" type="text"  required=""/>
+		   <br><br>
+				
+		<p class="alignright">		
+		<input  placeholder="Mail" name="name" class="mail" type="text" required=""><br><br>
+				<input  placeholder="you are living in" name="address" class="address" type="text" required=""><br><br><br><br><br><br>
+					<br><br><br><br><br><br>
+                                       </p>
+									   </div>
+									   <br>
+									   
+		
+			
+		<br><br><br><br><br><br>
+		<div class="main-agileits "> 
+	<h2 class="sub-head"><font color="grey" size="6">You are looking for</font></h2>
+       
+		<div class="sub-main">	
+               <center>    
+
+			
+			<p class="alignleft">	
+			<input placeholder="Position you apply for" name="name" class="name" type="text" required=""/>
+					<br><br>
+			<input placeholder="Working hours" name="mobile_no" class="number" type="text"  required=""/>
+		   <br><br>
+				
+		<p class="alignright">		
+		<input  placeholder="Department" name="name" class="mail" type="text" required=""><br><br>
+				<input  placeholder="Duration" name="address" class="address" type="text" required=""><br><br><br><br><br><br>
+					<br><br><br><br><br><br>
+                                       </p>
+									   </div>
+					<br><br><br><br><br><br>
+					<div class="main-agileits "> 
+	<h2 class="sub-head"><font color="grey" size="6">What Motivated you?</font></h2>
+       
+		<div class="sub-main">	
+               <center>    
+
+			
+			<input type="text" id="txtbox">
+			<!--<input placeholder="Position you apply for" name="name" class="name" type="text" required=""/>-->	
+					</div>
+					</div>
+					
+					
+                                       </p>	<center>	
+                                        <div class="w3-container ">
+      <input type="Submit"name="submit" value="submit" >
+                                        </div>
+</center>										
+										
+                               
+			</form>
+			<center>   
+		</div>
+		<div class="clear"></div>
+</div>
     )
    
   }
 }
-export default App;
+export default Test1;
