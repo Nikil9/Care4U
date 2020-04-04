@@ -44,7 +44,7 @@ class Resources extends Component {
         <li><input type="text" id="txtbox" placeholder="Address"/></li>
         <li><input type="text" id="txtbox" placeholder="Symptoms & Medical history"/></li>
         <li><input type="text" id="txtbox" placeholder="Help Needed"/></li>
-        <li class="grey"><a href="#" class="button">Get Help</a></li>
+        <li class="grey"><a href="#" class="button">Proceed for Test</a></li>
         </ul>
       </div>
 
