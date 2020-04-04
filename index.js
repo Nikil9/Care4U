@@ -24,7 +24,7 @@ class App extends Component {
          <SimpleMap/> 
       </div>
       <div>
-         <Test1/> 
+         <News/> 
       </div>
     </div>
     );
