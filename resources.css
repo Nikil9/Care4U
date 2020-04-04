@@ -24,13 +24,14 @@
 }
 
 .price .header {
-  background-color: grey;
+  background-color:#36454F;
   color: white;
   font-size: 25px;
 }
 
 .price li {
   border-bottom: 1px solid #eee;
+  background-color:#696969;
   padding: 20px;
   text-align: center;
 }
