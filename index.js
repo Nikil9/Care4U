@@ -20,7 +20,7 @@ class App extends Component {
         </div>
       </div>
       <div>
-         <News/> 
+         <Test1/> 
       </div>
     </div>
     );
