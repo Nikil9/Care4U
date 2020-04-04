@@ -101,7 +101,7 @@ class App extends Component {
          {this.state.home?<Test/>:''}
       </div>
        <div>
-         {this.state.join?<Join/>:''}
+         {this.state.join?<Test1/>:''}
       </div>
     </div>
     );
