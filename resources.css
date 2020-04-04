@@ -17,10 +17,15 @@
 .price:hover {
   box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
 }
+#txtbox {
+    font-size: 18pt;
+    height: 30px;
+    width : 300px;
+}
 
 .price .header {
-  background-color: #111;
-  color: white;
+  background-color:yellow;
+  color: grey;
   font-size: 25px;
 }
 

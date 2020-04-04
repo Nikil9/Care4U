@@ -7,7 +7,7 @@ class Test1 extends Component {
     return (
       <div>
    <div class="main-agileits  w3-container w3-BLUE w3-xxlarge"> 
-          <h1> Join us</h1>
+          <h1 class="sub-head"><font color="grey" size="6"> Join us</font></h1>
       </div>
       <p class="alignleft">	
 <div class="main-agileits"> 
