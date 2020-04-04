@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import Hello from './Hello';
 import './style.css';
 import Test from './Test';
-import Testkks from './Test1';
+import Test1 from './Testkks';
 import SimpleMap from './SimpleMap';
 
 class App extends Component {
