@@ -26,6 +26,12 @@ class App extends Component {
       <div>
          <News/> 
       </div>
+      <div>
+         <Test1/> 
+      </div>
+      <div>
+         <resources/> 
+      </div>
     </div>
     );
   }
