@@ -20,7 +20,7 @@ class App extends Component {
         </div>
       </div>
       <div>
-         <SimpleMap/> 
+         <Test1/> 
       </div>
     </div>
     );
