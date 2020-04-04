@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import  resources from './resources.css';
 
-class Test extends Component {
+class resources extends Component {
   render() {
     return (
       <div>
