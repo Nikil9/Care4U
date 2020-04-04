@@ -6,7 +6,7 @@ const AnyReactComponent = ({text}) => <div>{text}</div>;
 
 const SimpleMap = (props) => {
     const [center, setCenter] = useState({lat: 11.0168, lng: 76.9558 });
-    const [zoom, setZoom] = useState(5);
+    const [zoom, setZoom] = useState(4);
     return (
         <div style={{ height: '100vh', width: '100%' }}>
         <GoogleMapReact
@@ -16,12 +16,12 @@ const SimpleMap = (props) => {
         >
           <AnyReactComponent
             lat={17.3850}
-            lng={78.4867}
+            lng={78.467}
             text="Your Location"
           />
 
           <Marker
-            lat={17.3850}
+            lat={19.0168}
             lng={78.4867}
             name="Risk Zone"
             color="blue"
@@ -56,7 +56,7 @@ const SimpleMap = (props) => {
           />
 
            <Marker
-            lat={19.0168}
+            lat={17.3850}
             lng={80.9558}
             name="Quarantine Zone"
             color="violet"

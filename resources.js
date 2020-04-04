@@ -48,6 +48,9 @@ class Resources extends Component {
         </ul>
       </div>
 
+
+      <input type="submit" value="Covid Zone" onClick={handleMap.bind(this)}/>
+        
       </div>
     )
   }
