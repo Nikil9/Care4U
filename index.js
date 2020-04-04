@@ -4,7 +4,6 @@ import Hello from './Hello';
 import './style.css';
 import Test from './Test'
 import SimpleMap from './SimpleMap'
-import Join from './Join';
 
 class App extends Component {
   render() {
@@ -21,9 +20,6 @@ class App extends Component {
       </div>
       <div>
          <SimpleMap/> 
-      </div>
-      <div>
-         <Join/> 
       </div>
     </div>
     );
