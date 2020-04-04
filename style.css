@@ -97,4 +97,19 @@ h1, p {
   display: table;
   clear: both;
 }
-  
+
+.column1{
+  background-color:#aaa
+}
+
+.column2{
+  background-color:#bbb
+}
+
+.column3{
+  background-color:#ccc
+}
+
+.column4{
+  background-color:#ddd
+}

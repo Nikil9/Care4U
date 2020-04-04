@@ -55,26 +55,24 @@ function gridView() {
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
-<button onclick="listView()"><i class="fa fa-bars"></i> List</button>    
-<button onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
 
 <div class="row">
-  <div class="column" >
+  <div class="column1" >
     <h2>Column 1</h2>
     <p>Some text.</p>
   </div>
-  <div class="column" >
+  <div class="column2" >
     <h2>Column 2</h2>
     <p>Some text..</p>
   </div>
 </div>
 
 <div class="row">
-  <div class="column" >
+  <div class="column3" >
     <h2>Column 3</h2>
     <p>Some text..</p>
   </div>
-  <div class="column" >
+  <div class="column4" >
     <h2>Column 4</h2>
     <p>Some text..</p>
   </div>
