@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import './Aboutus.css';
+import  Aboutus from './Aboutus.css';
 
 class Test1 extends Component {
   render() {
